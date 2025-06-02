@@ -85,7 +85,7 @@ body {
     padding: 40px 20px;
 }
 .content fieldset{
-    background-color: aliceblue;   
+    background-image: url('/img/formsbg.png');   
 }
 .content-txt {
     margin-bottom: 50px;

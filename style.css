@@ -78,12 +78,12 @@ body {
     height: 78%;
     flex-direction: column;
     justify-content: space-between;
-    align-content: center;
+    align-items: center;
     background-color: #e3f7ff;
     color:#1f6c7e;
     font-size: large;
     min-height: 300px;
-    padding: 40px 20px;
+    padding: 20px 20px;
 }
 .content h2 {
     margin-left: 30px;
@@ -92,39 +92,53 @@ body {
     text-indent: 30px;
 }
 .content img {
-    width: 90%;
-    align-self: center;
     border-radius: 10px;
-    margin-bottom: 20px;
     box-shadow: 2px 2px 2px 2px rgb(0,0,0,0.2);
 }
 .content-top {
     display: inline-block;
     width: 100%;
 }
+.content-top-img {
+    display: inline-block;
+    padding-left: 80px;
+}
+.content-top-img img {
+    width: 90%;
+}
 .content-bottom {
+    width: 100%;
+    height: 35%;
     display: flex;
-    padding-top: 0  0;
-    align-content: center;
-    justify-content: space-between;
-    height: 60%;
+    align-items: center;
+    gap: 50px;
 }
 .content-list {
+    width: 50%;
+    height: 60%;
     border: 4px ridge #b8eaff;
     background-color: aliceblue;
-    height: 45%;
-    padding: -10px 20px;
 }
-.content-img{
-    margin-left: 200px;
-
+.content-img {
+    width: 50%;
+}
+.content-img img {
+    width: 100%;
 }
 .content-conteiner {
-    width: 50%;
-    display: inline;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    gap: 50px;
+    margin: 0 100px 15px 100px;
 }
-.content-bottom img {
-    width: 40%;
+.content-conteiner img {
+    width: 100%;
+    justify-content: space-between;
+}
+.content-conteiner figcaption{
+    font-size: smaller;
+    text-align: center;
 }
 .footer {
     width: 100%;

@@ -14,7 +14,7 @@ body {
 }
 
 .wrapper {
-    width: 100px;
+    width: 1200px;
     height: 1855px;
     display: flex;
     margin: 0 auto;
@@ -23,6 +23,7 @@ body {
 .main {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     width: 80%;
     height: 100%;
 }
@@ -73,20 +74,74 @@ body {
     height: 100%;
 }
 .content {
-    display: inline-block;
-    max-height: 1650px;
+    display: flex;
+    height: 78%;
     width: 100%;
-    height: 100%;
-    font-size: large;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     background-color: #e3f7ff;
     color:#1f6c7e;
+    font-size: large;
     min-height: 300px;
-    padding: 40px 0;
+    padding: 20px 20px;
+}
+.content h2 {
+    margin-left: 30px;
+}
+.content p {
+    text-indent: 30px;
+}
+.content-conteiner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.content-top-txt {
+    width: 100%;
+    height:15%;
+}
+.content-form {
+    background-image: url('/img/formsbg.png');
+    margin-bottom: 20px;
+}
+.content-form button {
+    color: #f1f1f1;
+    text-shadow: 5px 5px 5px 5px rgb(0, 0, 0, 0.2);
+    padding: 5px 5px;
+    border-radius: 5px;
+    background-image: linear-gradient(#298da3, #4dd2f0);
+}
+.content-form button:hover {
+    transform: scale(1.05);
+    color: #f1f1f1;
+    text-shadow: 5px 5px 5px 5px rgb(0, 0, 0, 0.2);
+    padding: 5px 5px;
+    border-radius: 5px;
+    background-image: linear-gradient(#7be3fa, #298da3);
+}
+.bottom-txt {
+    width: 100%;
+    height: 20%;
+    margin-top: 30px;
+}
+.bottom-img img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(0,0,0,0.2);
+    margin-bottom: 20px;
+}
+.slogan {
+    text-align: center;
+    align-items: end;
+    padding-top: 20px;
+    margin-bottom: 0;
 }
 .footer {
     width: 100%;
     overflow: hidden;
-    padding: 0 40px 2px 40px;
+    padding: 0 40px 0 40px;
     background-color: #b8eaff;
     color: #31a9c4;
     font-size: x-small;
