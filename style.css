@@ -35,6 +35,10 @@ body {
     padding: 10px 20px 0px;
     flex-flow: column;
 }
+.menu ul {
+    position: sticky;
+    top: 26px;
+}
 .menu li {
     margin-bottom: 20px;
     display: flex;
@@ -67,6 +71,8 @@ body {
 }
 .header {
     background-color: #e3f7ff;
+    position: sticky;
+    top: 0;
     max-height: 134px;
 }
 .header img {
